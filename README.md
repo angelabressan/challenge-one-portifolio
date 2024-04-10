@@ -1,4 +1,7 @@
-# 💻🚀 Desafio Oracle Programa ONE Alura - Portfólio
+# 💻🚀 Challenge ONE | Front End - Portfólio
+
+
+Projeto desenvolvido usando HTML5, CSS3 & JavaScript do desafio do Challenge Portifólio - Iniciante em Programação T6 do programa ONE da Oracle e Alura.
 
 
 
