@@ -376,14 +376,6 @@ a {
         margin-top: 10px;
     }
 
-    .about__section,
-    .education__section,
-    .contact__section {
-        background-color: rgba(0, 0, 0, 0.9); /* Cor de fundo com transparência */
-        padding: 20px; /* Adiciona um espaço interno para melhorar a legibilidade */
-        margin-bottom: 20px; /* Adiciona um espaço entre as seções */
-    }
-
     .academic__university-logo {
         margin-right: 0;
         margin-top: 10px;
@@ -441,22 +433,26 @@ a {
     }
 
     /* Seção de Title */
+
+    /* Reorganiza o layout para dispositivos móveis */
+        /* Reorganiza o layout para dispositivos móveis */
     .title__profile {
-        margin-right: 30px;
-        margin-left: 30px;
+        text-align: center;
+    }
+    
+    .title__profile img {
+        display: block;
+        margin: 0 auto 10px; /* Centraliza a imagem e adiciona espaço abaixo */
+    }
+    
+    .title__info {
+        text-align: center;
+        margin-top: 10px; /* Adiciona espaço acima das informações de título */
     }
 
     .title__links__item {
         margin-right: 15px;
         margin-top: 10px;
-    }
-
-    .about__section,
-    .education__section,
-    .contact__section {
-        background-color: rgba(0, 0, 0, 0.9); /* Cor de fundo com transparência */
-        padding: 20px; /* Adiciona um espaço interno para melhorar a legibilidade */
-        margin-bottom: 20px; /* Adiciona um espaço entre as seções */
     }
 
     .skills__hobbies {
