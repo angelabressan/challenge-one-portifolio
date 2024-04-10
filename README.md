@@ -17,9 +17,9 @@ Veja o projeto no ar no Github Pages [Neste Link](  )
 
  ## 💻 Demonstração
 
-<p align="center">
-    <img src="portifoliopessoal.gif">
+ <img src="portifoliopessoal.gif">
 
+    
 
  ## 🚀 Tecnologias Utilizadas
 
