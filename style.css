@@ -1,0 +1,488 @@
+/* Definição de variáveis de cor */
+:root {
+    --cor-de-fundo: #F5EEE6; /* Cor de fundo palha */
+    --cor-de-fundo2: #FFF8E3; /* Cor de fundo amarelo claro */
+    --cor-de-link: #776B5D; /* Cor dos links marrom claro */
+    --cor-hover: #948472; /* Cor hover botao marrom claro */
+    --cor-neutro: #ffff; /* Cor de fundo box skills e hobbies e letra botao */
+}
+
+/* Estilos gerais */
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo);
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+ol, ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/* Sessão Menu */
+.menu {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.menu header {
+    display: flex;
+    align-items: center;
+}
+
+.menu__title {
+    margin-left: 10px; /* Espaçamento à esquerda do título */
+    font-size: 22px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+.menu__list {
+    display: flex;
+    list-style-type: none;
+    margin-left: auto; /* Move a lista para a direita */
+}
+
+.menu__list__item {
+    margin-left: 30px; /* Espaçamento entre os itens do menu */
+    font-size: 22px;
+}
+
+/* Sessão Title */
+.title__div {
+    display: flex;
+    align-items: flex-start; /* Alinha os itens no topo */
+}
+
+.title__profile {
+    max-width: 100%;
+    margin-right: 50px; /* Espaçamento à direita da imagem */
+    margin-left: 30px;
+    font-size: 25px;
+    border-radius: 130px;
+}
+
+.title__container {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.title__bio {
+    margin-bottom: 15px; /* Espaçamento abaixo do título bio */
+    font-size: 28px;
+}
+
+.title__subsection {
+    margin-bottom: 20px; /* Espaçamento abaixo do subtítulo */
+    font-size: 24px;
+}
+
+.title__links {
+    display: flex;
+    flex-direction: row; /* Os itens serão dispostos em linha */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+}
+
+.title__links__item {
+    margin-right: 48px; /* Espaçamento entre os itens */
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.title__network {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+}
+
+.title__network__item a {
+    text-decoration: none;
+    color: var(--cor-de-fundo); /* Cor do texto dos links */
+}
+
+.title__network__item img {
+    vertical-align: middle; /* Alinha verticalmente a imagem com o texto */
+}
+
+/* Sessão About */
+.about {
+    background-color: var(--cor-de-fundo2); /* Cor de fundo amarelo claro */
+    padding: 20px; /* Espaçamento interno */
+    margin-top: 30px; /* Margem superior para espaçar do conteúdo acima */
+}
+
+.about__title {
+    font-size: 30px;
+}
+
+.about__paragraph {
+    font-size: 24px;
+}
+
+/* Sessão Skills e Hobbies */
+.skills__line,
+.hobbies__line {
+    display: flex; /* Torna os itens filhos flexíveis */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    flex-wrap: wrap; /* Permite que os itens filhos quebrem para a próxima linha conforme necessário */
+}
+
+.skills__title,
+.hobbies__title {
+    text-align: center; /* Centraliza os títulos */
+    font-size: 30px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+.skill,
+.hobby {
+    background-color: var(--cor-neutro); /* Cor de fundo da caixa */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Borda arredondada */
+    margin: 16px; /* Espaçamento entre os itens */
+    height: 118px;
+    width: 350px; /* Largura da caixa */
+    text-align: center; /* Centraliza o conteúdo dentro das caixas */
+}
+
+.skill__icon img,
+.hobby__icon img {
+    width: 45px; /* Largura dos ícones */
+    height: auto; /* Altura automática para manter a proporção */
+}
+
+.skill__name,
+.hobby__name {
+    margin-top: 15px; /* Espaçamento entre o ícone e o texto */
+    font-size: 16px; /* Tamanho do texto */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+/* Experiência Acadêmica */
+.academic {
+    background-color: var(--cor-de-fundo2); /* Cor de fundo amarelo claro */
+    padding: 10px; /* Espaçamento interno */
+}
+
+.academic__title {
+    text-align: center; /* Centraliza o título */
+    font-size: 30px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+.academic__container {
+    display: flex; /* Usa flexbox para organizar os elementos */
+    align-items: left; /* Alinha verticalmente os itens */
+}
+
+.academic__university-logo {
+    width: 260px; /* Largura da imagem da universidade */
+    height: auto; /* Altura automática para manter a proporção */
+    margin-right: 20px; /* Margem à direita para separar a imagem dos cursos */
+    margin-left: 30px; /* Margem à esquerda para separar a imagem do canto da tela */
+    margin-top: 30px; /* Espaçamento acima da imagem */
+    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+    align-self: center; /* Centraliza verticalmente a imagem */
+}
+
+.academic__courses {
+    flex-grow: 1; /* Permite que o contêiner de cursos cresça para ocupar o espaço disponível */
+}
+
+.academic__courses__box {
+    margin-bottom: 5px; /* Espaçamento entre os cursos */
+    display: flex; /* Usa flexbox para organizar os elementos */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    align-items: left; /* Centraliza os itens horizontalmente */
+}
+
+.academic__courses__item__title {
+    margin-top: 0; /* Remove a margem superior do título */
+    margin-bottom: 5px; /* Espaçamento abaixo do título */
+    font-size: 24px;
+}
+
+.academic__courses__item__subtitle {
+    margin-top: 10px; /* Margem superior para separar o subtítulo do título */
+    font-size: 22px;
+}
+
+/* Experiência */
+.experiencie__box {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+}
+
+.experience__section__title {
+    font-size: 30px; /* Ajuste o tamanho da fonte conforme necessário */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    margin-top: 40px; /* Define a margem superior */
+    text-align: center; /* Centraliza o texto */
+}
+
+.experience__img__decodificador {
+    justify-content: left;
+    width: 400px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin-right: 40px; /* Espaçamento entre a imagem e o texto */
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.experience__img__jogo {
+    justify-content: right;
+    width: 400px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin-right: 40px; /* Espaçamento entre a imagem e o texto */
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.experience__info {
+    flex-grow: 1; /* Permite que o texto ocupe o espaço restante */
+}
+
+/* Estilos adicionais conforme necessário */
+.experience__title {
+    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+    margin: 0;
+}
+
+.experience__text {
+    font-size: 20px; /* Ajuste o tamanho da fonte conforme necessário */
+    margin: 0;
+    margin-top: 22px;
+}
+
+.experience__description {
+    margin-top: 40px;
+}
+
+.experience__repo {
+    margin-top: 50px;
+    margin-right: 10px; /* Espaçamento entre os botões */
+}
+
+.experience__repo a {
+    text-decoration: none;
+}
+
+.experiencia__botao--repo {
+    padding: 13px 17px; /* Ajuste o tamanho dos botões conforme necessário */
+    font-size: 20px; /* Ajuste o tamanho da fonte dos botões conforme necessário */
+    border: none;
+    cursor: pointer;
+    background-color: var(--cor-de-link);
+    color: var(--cor-neutro); /* Cor da letra do botão */
+    border-radius: 5px;
+}
+
+.experiencia__botao--repo:hover {
+    background-color: var(--cor-hover);
+}
+
+/* Sessão de Contato */
+.formcontato__contacto {
+    background-color: var(--cor-de-fundo2); /* Cor de fundo amarelo claro */
+    display: flex;
+    align-items: center;
+}
+
+.formcontato__subtitle {
+    flex: 1; /* Permite que o texto ocupe o espaço restante */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.formcontato__img {
+    width: 300px; /* Ajuste conforme necessário */
+    height: 400px; /* Ajuste conforme necessário */
+    margin-top: 40px;
+    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+    margin-left: 30px; /* Espaçamento entre a imagem e o canto da tela */
+}
+
+.formcontato__title {
+    text-align: center;
+    font-size: 30px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+.formcontato__subtext {
+    font-size: 20px;
+}
+
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%; /* Certifica-se de que o formulário ocupa todo o espaço disponível */
+}
+
+.formcontato__input,
+.formcontato__textarea,
+.formcontato__botao {
+    margin-bottom: 32px; /* Espaçamento entre os elementos */
+    width: 85%; 
+    border: 2px solid var(--cor-de-link);
+    border-radius: 7px;
+}
+
+/* Sessão do Rodapé */
+.footer {
+    background-color: var(--cor-de-fundo); /* Cor de fundo do rodapé */
+    padding: 20px; /* Espaçamento interno do rodapé */
+}
+
+.footer__rodape {
+    display: flex;
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    gap: 20px; /* Espaçamento entre os elementos */
+    margin-bottom: 30px;
+}
+
+.footer__rodape p {
+    margin: 0; /* Remove as margens padrão dos parágrafos */
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Seção de Menu */
+    .menu__list {
+        display: none;
+    }
+
+    .menu__title {
+        margin-right: 20px;
+    }
+
+    .menu__list__item {
+        margin-left: 20px;
+    }
+
+    /* Seção de Title */
+    .title__profile {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .title__links__item {
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+
+    .academic__university-logo {
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .experience__info {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        max-width: 80%; /* Limita a largura máxima das informações */
+        text-align: center; /* Centraliza o conteúdo */
+        font-size: 90%; /* Diminui o tamanho da fonte em relação ao tamanho padrão */
+    }
+
+    .experience__img__decodificador,
+    .experience__img__jogo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .formcontato__img {
+        display: none; /* Oculta a imagem em tablets */
+    }
+
+    .formcontato__text {
+        width: 100%; /* Define a largura total para o conteúdo de texto */
+        margin-left: 30px;
+    }
+
+    .formcontato__form {
+        width: 100%; /* Define a largura total para o formulário */
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 767px) {
+    /* Seção de Menu */
+    .menu__list {
+        display: none;
+    }
+
+    .menu__title {
+        display: block;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    .menu__title img {
+        display: none;
+    }
+
+    .menu__list__item {
+        display: none;
+    }
+
+    /* Seção de Title */
+    .title__profile {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .title__links__item {
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+
+    .academic__university-logo {
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .experience__info {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        max-width: 90%; /* Limita a largura máxima das informações */
+        text-align: center; /* Centraliza o conteúdo */
+        font-size: 80%; /* Diminui o tamanho da fonte em relação ao tamanho padrão */
+    }
+
+    .experience__img__decodificador,
+    .experience__img__jogo {
+        
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 30px;
+    }
+
+    .formcontato__img {
+        display: none; /* Oculta a imagem em dispositivos móveis */
+    }
+
+    .formcontato__text {
+        width: 100%; /* Define a largura total para o conteúdo de texto */
+        margin-left: 30px;
+    }
+
+    .formcontato__form {
+        width: 100%; /* Define a largura total para o formulário */
+        
+    }
+}
+
+
+
+
+
+
+
