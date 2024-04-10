@@ -1,0 +1,152 @@
+/* Mobile */
+@media (max-width: 767px) {
+    /* Seção de Menu */
+    .menu__list {
+        display: none;
+    }
+
+    .menu__title {
+        display: block;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    .menu__title img {
+        display: none;
+    }
+
+    .menu__list__item {
+        display: none;
+    }
+
+    /* Seção de Title */
+
+    /* Reorganiza o layout para dispositivos móveis */
+        /* Reorganiza o layout para dispositivos móveis */
+    .title__profile {
+        text-align: center;
+    }
+    
+    .title__profile img {
+        display: block;
+        margin: 0 auto 10px; /* Centraliza a imagem e adiciona espaço abaixo */
+    }
+    
+    .title__info {
+        text-align: center;
+        margin-top: 10px; /* Adiciona espaço acima das informações de título */
+    }
+
+    .title__links__item {
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+
+    .skills__hobbies {
+        text-align: center; /* Centraliza o conteúdo */
+        margin: 0 auto; /* Define as margens automáticas para centralizar horizontalmente */
+        max-width: 90%; /* Limita a largura máxima */
+    }
+
+    .academic__university-logo {
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .experience__info {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        max-width: 90%; /* Limita a largura máxima das informações */
+        text-align: center; /* Centraliza o conteúdo */
+        font-size: 80%; /* Diminui o tamanho da fonte em relação ao tamanho padrão */
+    }
+
+    .experience__img__decodificador,
+    .experience__img__jogo {
+        
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 30px;
+    }
+
+    .formcontato__img {
+        display: none; /* Oculta a imagem em dispositivos móveis */
+    }
+
+    .formcontato__text {
+        width: 100%; /* Define a largura total para o conteúdo de texto */
+        margin-left: 30px;
+    }
+
+    .formcontato__form {
+        width: 100%; /* Define a largura total para o formulário */
+        
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Seção de Menu */
+    .menu__list {
+        display: none;
+    }
+
+    .menu__title {
+        margin-right: 20px;
+    }
+
+    .menu__list__item {
+        margin-left: 20px;
+    }
+
+    /* Seção de Title */
+    .title__profile {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .title__links__item {
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+
+    .academic__university-logo {
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .experience__info {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        max-width: 80%; /* Limita a largura máxima das informações */
+        text-align: center; /* Centraliza o conteúdo */
+        font-size: 90%; /* Diminui o tamanho da fonte em relação ao tamanho padrão */
+    }
+
+    .experience__img__decodificador,
+    .experience__img__jogo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .formcontato__img {
+        display: none; /* Oculta a imagem em tablets */
+    }
+
+    .formcontato__text {
+        width: 100%; /* Define a largura total para o conteúdo de texto */
+        margin-left: 30px;
+    }
+
+    .formcontato__form {
+        width: 100%; /* Define a largura total para o formulário */
+    }
+}
+
+
+
+
+
+
