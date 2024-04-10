@@ -376,6 +376,14 @@ a {
         margin-top: 10px;
     }
 
+    .about__section,
+    .education__section,
+    .contact__section {
+        background-color: rgba(0, 0, 0, 0.9); /* Cor de fundo com transparência */
+        padding: 20px; /* Adiciona um espaço interno para melhorar a legibilidade */
+        margin-bottom: 20px; /* Adiciona um espaço entre as seções */
+    }
+
     .academic__university-logo {
         margin-right: 0;
         margin-top: 10px;
@@ -441,6 +449,20 @@ a {
     .title__links__item {
         margin-right: 15px;
         margin-top: 10px;
+    }
+
+    .about__section,
+    .education__section,
+    .contact__section {
+        background-color: rgba(0, 0, 0, 0.9); /* Cor de fundo com transparência */
+        padding: 20px; /* Adiciona um espaço interno para melhorar a legibilidade */
+        margin-bottom: 20px; /* Adiciona um espaço entre as seções */
+    }
+
+    .skills__hobbies {
+        text-align: center; /* Centraliza o conteúdo */
+        margin: 0 auto; /* Define as margens automáticas para centralizar horizontalmente */
+        max-width: 90%; /* Limita a largura máxima */
     }
 
     .academic__university-logo {
