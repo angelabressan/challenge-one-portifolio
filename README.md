@@ -17,7 +17,7 @@ Veja o projeto no ar no Github Pages [Neste Link](  )
 
  ## 💻 Demonstração
 
-<img src="portifoliopessoal.gif">
+<img src="ProjetoPortifólio/assets/forreadme/portifoliopessoal.gif">
 
 
  ## 🚀 Tecnologias Utilizadas
