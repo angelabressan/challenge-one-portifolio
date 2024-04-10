@@ -17,7 +17,8 @@ Veja o projeto no ar no Github Pages [Neste Link](  )
 
  ## 💻 Demonstração
 
-<img src="assets/for_readme/portifoliopessoal">
+<p align="center">
+    <img windth="470" src="assets/for_readme/portifoliopessoal">
 
 
  ## 🚀 Tecnologias Utilizadas
