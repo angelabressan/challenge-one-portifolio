@@ -1,8 +1,7 @@
-# 💻🚀 Challenge Portifólio | Trilha Front End - Programa Oracle ONE Next Education
+# 💻🚀 Challenge Portifólio | Programa Oracle ONE Next Education
 
 
-Projeto desenvolvido usando HTML5, CSS3 & JavaScript do Challenge Portifólio - T6 do programa ONE.
-
+- Projeto desenvolvido usando HTML5, CSS3 & JavaScript - Challenge Portifólio - T6 do programa ONE.
 
 
  ## 🚀 Layout do Figma
@@ -11,7 +10,7 @@ Veja aqui o layout do desafio [Neste Link](https://www.figma.com/file/Mv4mSxBHzB
 
 
  ## 🔗 Link do deploy
-Veja o projeto no ar no Github Pages [Neste Link](https://angelabressan.github.io/challenge-one-portifolio/)
+- Veja o projeto no ar no Github Pages [Neste Link](https://angelabressan.github.io/challenge-one-portifolio/)
 
 
 
