@@ -16,9 +16,9 @@
 
  ## 💻 Demonstração
 
- <img src="portifoliopessoal.gif">
+ 
+https://github.com/angelabressan/challenge-one-portifolio/assets/120230720/8758fc78-06d6-4530-8d21-340ce998977c
 
-    
 
  ## 🚀 Tecnologias Utilizadas
 
