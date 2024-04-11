@@ -1,7 +1,7 @@
-# 💻🚀 Challenge ONE | Front End - Portfólio
+# 💻🚀 Challenge Portifólio | Trilha Front End - Programa Oracle ONE Next Education
 
 
-Projeto desenvolvido usando HTML5, CSS3 & JavaScript do desafio do Challenge Portifólio - Iniciante em Programação T6 do programa ONE da Oracle e Alura.
+Projeto desenvolvido usando HTML5, CSS3 & JavaScript do Challenge Portifólio - T6 do programa ONE.
 
 
 
