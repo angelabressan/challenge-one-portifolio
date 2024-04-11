@@ -106,7 +106,7 @@
 
     .experience__repo {
         margin-top: 10px; /* Adiciona espaço acima do botão */
-    }}
+    }
 
     .formcontato__img {
         display: none; /* Oculta a imagem em dispositivos móveis */
@@ -121,6 +121,7 @@
         width: 100%; /* Define a largura total para o formulário */
         
     }
+
 }
 
 /* Tablet */
